@@ -792,12 +792,21 @@ section {
 }
 
 #facts video {
-  position: absolute;
-  position: absolute;
-  top: -500px;
-  left: -128px;
-  right: 46px;
-  bottom: 0;
+    width: 100%;
+    position: absolute;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+@media screen and (max-width: 990px) {
+  #facts video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover!important;
+  }
 }
 
 #facts::before {
@@ -828,11 +837,11 @@ section {
   margin: 0 0 20px 0;
   font-family: 'SF Pro Text',-apple-system,BlinkMacSystemFont,Roboto,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
   font-size: 14px;
-  color: #111;
+  color: #fff!important;
 }
 
 #facts .section-header h3, #facts .section-header p {
-  color: white;
+  color: white!important;
 }
 
 #facts .facts-img {
