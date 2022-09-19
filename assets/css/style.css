@@ -1901,4 +1901,14 @@ h1 {
 .logo_img img {
   width: 120px;
 }
+.logo_text {
+  font-size: 35px;
+  color: #fff
+}
+
+@media screen and (max-width: 768px) {
+  .logo_text {
+    font-size: 18px!important;
+  }
+}
 /* CUstom Code */
