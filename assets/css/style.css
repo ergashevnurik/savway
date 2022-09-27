@@ -124,6 +124,7 @@ h1, h2, h3, h4, h5, h6 {
 #header {
   transition: all 0.5s;
   z-index: 997;
+  padding: 12px;
   background: rgba(0, 0, 0, 0.9);
 }
 #header.header-transparent {
@@ -1899,10 +1900,10 @@ h1 {
 }
 
 .logo_img img {
-  width: 120px;
+  width: 50px;
 }
 .logo_text {
-  font-size: 35px;
+  font-size: 24px;
   color: #fff
 }
 
